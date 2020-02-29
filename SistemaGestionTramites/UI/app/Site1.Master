@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="UI.app.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sistema de Gestion de Trámites </title>
+    <link href="style/styles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div id="master-container">
+                <nav>
+                    <ul>
+                        <li><a href="GestionEntidades.aspx">Gestión de Entidades</a></li>
+                        <li><a href="GestionTramites.aspx">Gestión de Trámites</a></li>
+                        <li><a href="GestionEmpleados.aspx">Gestión de Empleados</a></li>
+                        <li><a href="RegistroSolicitudes.aspx">Registro de solicitudes</a></li>
+                        <li><a href="CambioEstadoSolicitud.aspx">Cambio de estado de solicitud</a></li>
+                        <li><a href="ListaEstados.aspx">Lista de estados</a></li>
+                        <li><a href="ListaFecha.aspx">Lista por fecha
+                        </a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <p>Bienvenido 
+                        
+                    </p>
+                    <asp:Label ID="lblBienvenido" runat="server" Text="Label"></asp:Label>
+                    <p>a Sistema Gestion Montevideo.</p>
+                </div>
+                <div>
+                    <asp:Button ID="btnDestroySession" runat="server" Text="Cerrar Sesión" OnClick="btnDestroySession_Click" />
+                </div>
+            </div>
+
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <p>&copy Analista de Sistemas - Trabajo final 1er año 2019-2020 </p>
+    </footer>
+</body>
+</html>

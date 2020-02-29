@@ -1,0 +1,18 @@
+﻿body {
+}
+
+#master-container{
+    height:250px;
+    background-color: dodgerblue;
+}
+#footer {
+    height: 250px;
+    background-color: dodgerblue;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}

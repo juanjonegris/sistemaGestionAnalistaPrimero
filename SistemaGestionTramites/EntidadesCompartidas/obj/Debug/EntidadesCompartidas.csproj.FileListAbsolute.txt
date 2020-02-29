@@ -1,0 +1,9 @@
+C:\Users\Juanjo\Desktop\TrabajoFinalAnalistaDeSistemas\SistemaGestionTramites\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Juanjo\Desktop\TrabajoFinalAnalistaDeSistemas\SistemaGestionTramites\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Juanjo\Desktop\TrabajoFinalAnalistaDeSistemas\SistemaGestionTramites\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csproj.CoreCompileInputs.cache
+C:\Users\Juanjo\Desktop\TrabajoFinalAnalistaDeSistemas\SistemaGestionTramites\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Juanjo\Desktop\TrabajoFinalAnalistaDeSistemas\SistemaGestionTramites\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\SistemaGestionTramites\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\SistemaGestionTramites\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\Administrador\Desktop\SistemaGestionTramites\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\Administrador\Desktop\SistemaGestionTramites\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
