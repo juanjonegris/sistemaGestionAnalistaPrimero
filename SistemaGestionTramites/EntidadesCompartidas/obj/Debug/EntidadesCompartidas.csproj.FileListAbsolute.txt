@@ -7,3 +7,4 @@ C:\Users\Administrador\Desktop\SistemaGestionTramites\EntidadesCompartidas\obj\D
 C:\Users\Administrador\Desktop\SistemaGestionTramites\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
 C:\Users\Administrador\Desktop\SistemaGestionTramites\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
 C:\Users\Administrador\Desktop\SistemaGestionTramites\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\Juanjo\Desktop\TrabajoFinalAnalistaDeSistemas\SistemaGestionTramites\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.csprojAssemblyReference.cache

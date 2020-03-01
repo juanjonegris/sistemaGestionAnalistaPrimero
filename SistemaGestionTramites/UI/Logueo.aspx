@@ -5,23 +5,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+<link href="./app/style/styles.css" rel="stylesheet" />
+<title> Sistema Gestion - Login</title>
 </head>
 <body>
     <form id="form1" runat="server">
+        <div class="container">
         <div>
             <h1>Login</h1>
 
             <h3>Ingrese nombre de usuario (Cédula)</h3>
 
 
-
+            <p>
             <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
-
-
-
             <asp:RequiredFieldValidator ID="rfvNombreUsuario" runat="server" ControlToValidate="txtUsuario" Display="Dynamic" ErrorMessage="Ingresar Nombre de Usuario" ForeColor="#FF3399" SetFocusOnError="True">*</asp:RequiredFieldValidator>
+            </p>
+                <div class="validator-wrapper">
             <asp:CompareValidator ID="fvNombreUsuario" runat="server" Operator="DataTypeCheck" ControlToValidate="txtUsuario" CultureInvariantValues="True" Display="Dynamic" ErrorMessage="Ingrese solo los números de la cédula, sin puntos ni guiones" Type="Integer"></asp:CompareValidator>
+            </div>
 &nbsp;<h3>Ingrese contraseña</h3>
             <p>
                 <asp:TextBox ID="txtContrasena" runat="server"  TextMode="Password"></asp:TextBox>
@@ -32,6 +34,7 @@
             </p>
         </div>
         <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+       </div>
     </form>
 </body>
 </html>

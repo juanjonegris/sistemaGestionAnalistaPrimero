@@ -50,7 +50,10 @@ namespace EntidadesCompartidas
 
             set
             {
-                _entidad = value; //?? throw new Exception("No existe la Entidad Publica");
+                if(value==null)
+                    throw new Exception("No existe la Entidad Publica");
+
+                _entidad = value; 
             }
         }
 

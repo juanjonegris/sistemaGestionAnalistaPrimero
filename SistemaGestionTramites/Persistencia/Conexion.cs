@@ -31,17 +31,17 @@ namespace Persistencia
             return Convert.ToInt32(retorno.Value);
         }
 
-        internal static SqlDataReader DevolverDataReader(string sp,
-            SqlParameter[] parametros)
-        {
-            SqlConnection connection = new SqlConnection(cnn);
-            connection.Open();
-            SqlCommand cmd = new SqlCommand(sp, connection);
-            cmd.CommandType = CommandType.StoredProcedure;
-            if (parametros != null)
-                cmd.Parameters.AddRange(parametros);
+        //internal static SqlDataReader DevolverDataReader(string sp,
+        //    SqlParameter[] parametros)
+        //{
+        //    SqlConnection connection = new SqlConnection(cnn);
+        //    connection.Open();
+        //    SqlCommand cmd = new SqlCommand(sp, connection);
+        //    cmd.CommandType = CommandType.StoredProcedure;
+        //    if (parametros != null)
+        //        cmd.Parameters.AddRange(parametros);
 
-            return cmd.ExecuteReader();
-        }
+        //    return cmd.ExecuteReader();
+        //}
     }
 }

@@ -34,16 +34,20 @@ namespace EntidadesCompartidas
 
             set
             {
-                _empleado = value; //?? throw new Exception("No existe el empleado");
+                if(value == null)
+                    throw new Exception("No existe el empleado");
+
+                _empleado = value;  
             }
         }
         public Tramite tipoTramite { get {
                 return _tipoTramite;
             }
             set {
+                if (value == null)
+                    throw new Exception("No existe el trámite");
 
-
-                _tipoTramite = value; //?? throw new Exception("No existe el trámite");
+                _tipoTramite = value;  
             }
         }
         public DateTime FechaHora { get {
